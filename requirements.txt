@@ -1,0 +1,20 @@
+# ==============================================================================
+# AI ML Research Specialist Internship - Core Dependencies
+# Platform: YuvaIntern | Duration: 8 Weeks (03-Oct-2026 to 28-Nov-2026)
+# ==============================================================================
+
+# Core Data Science & Numerical Computation
+numpy
+pandas
+scikit-learn
+
+# Data Visualization & Plotting
+matplotlib
+seaborn
+
+# Interactive Computing & Notebook Environments
+jupyter
+jupyterlab
+
+# File Format Support & Spreadsheet Handling
+openpyxl
