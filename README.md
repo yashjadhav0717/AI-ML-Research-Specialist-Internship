@@ -3,15 +3,16 @@
 [![Internship Platform](https://img.shields.io/badge/Platform-YuvaIntern-0052CC.svg)](https://yuvaintern.com/)
 [![Duration](https://img.shields.io/badge/Duration-8%20Weeks%20(Oct%20--%20Nov%202026)-blue.svg)](#internship-overview)
 [![Domain](https://img.shields.io/badge/Domain-AI%20%7C%20ML%20%7C%20Data%20Science-success.svg)](#internship-objectives)
-[![Python Version](https://img.shields.io/badge/Python-3.9+-3776AB.svg?logo=python&logoColor=white)](#technology-stack)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 
-A centralized repository documenting research-oriented coursework, empirical data investigations, technical laboratory exercises, and analytical reporting completed during the **AI ML Research Specialist Internship** hosted by **YuvaIntern**.
+A centralized repository documenting the research-oriented coursework, practical data investigations, technical laboratory exercises, analytical reporting, and final machine learning capstone completed during the **AI ML Research Specialist Internship** hosted by **YuvaIntern**.
 
 ---
 
 ## Table of Contents
 
 - [Internship Overview](#internship-overview)
+- [Repository Purpose](#repository-purpose)
 - [Internship Objectives](#internship-objectives)
 - [Internship Tasks](#internship-tasks)
 - [Technology Stack](#technology-stack)
@@ -19,7 +20,10 @@ A centralized repository documenting research-oriented coursework, empirical dat
 - [Working Methodology](#working-methodology)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Documentation Standards](#documentation-standards)
-- [Research & Responsible Analysis](#research--responsible-analysis)
+- [Research and Responsible Analysis](#research-and-responsible-analysis)
+- [Task 06 Capstone Project](#task-06-capstone-project)
+- [Environment Setup](#environment-setup)
+- [Reproducibility](#reproducibility)
 - [Internship Submission](#internship-submission)
 - [Author](#author)
 - [License](#license)
@@ -30,144 +34,193 @@ A centralized repository documenting research-oriented coursework, empirical dat
 
 | Parameter | Details |
 | :--- | :--- |
-| **Internship Title** | AI ML Research Specialist Internship in Thiruvananthapuram |
+| **Internship Title** | AI ML Research Specialist Internship |
 | **Organization / Platform** | YuvaIntern |
 | **Location** | Thiruvananthapuram, Kerala, India |
 | **Duration** | 03-Oct-2026 to 28-Nov-2026 |
 | **Total Length** | 8 Weeks |
-| **Primary Focus** | Applied Data Science, Statistical Analysis, and Machine Learning Research |
+| **Primary Focus** | Applied Data Science, Statistical Analysis, Machine Learning, and Research-Oriented Analysis |
 
 ### Repository Purpose
-The purpose of this repository is to systematically record and showcase practical work, exploratory analysis, reproducible workflows, and research deliverables produced throughout the 8-week internship program. It serves as an open, auditable portfolio for internship evaluators, technical reviewers, and recruiters.
+
+The purpose of this repository is to systematically record and showcase the practical work, analytical investigations, reproducible workflows, technical implementations, visualizations, reports, and machine learning projects completed throughout the internship.
+
+The repository serves as a structured portfolio for internship evaluation, technical review, academic documentation, and professional demonstration of Data Science and Machine Learning skills.
 
 ---
 
 ## Internship Objectives
 
-The internship focuses on building strong foundational and applied capabilities across core data disciplines:
+The internship focused on developing practical and research-oriented capabilities across core Data Science disciplines:
 
-- **Data Science Fundamentals:** Grasping end-to-end data workflows, analytical taxonomies, and industry applications.
-- **Python Programming:** Writing structured, efficient, and readable code for scientific computation and data handling.
-- **Statistics & Probability:** Applying descriptive and inferential statistics to extract quantitative signals from raw data.
-- **Data Handling & Preprocessing:** Cleaning irregular entries, transforming variables, managing missing values, and handling outliers.
-- **Exploratory Data Analysis (EDA):** Conducting thorough exploratory audits to uncover patterns, anomalies, and relationships.
-- **Data Visualization:** Developing informative visual narratives that make complex empirical data interpretable.
-- **Data Science Tool Ecosystem:** Leveraging industry-standard libraries, development environments, and analytical utilities.
-- **Analytics & Strategic Insights:** Translating data findings into coherent business recommendations and executive summaries.
-- **Machine Learning Applications:** Implementing baseline and comparative ML models to address specific analytical problems.
-- **Research-Oriented Problem Solving:** Formulating testable hypotheses, validating assumptions, and addressing methodological limitations.
-- **Documentation & Reproducibility:** Maintaining transparent codebases, clear narrative writeups, and reproducible execution environments.
+- **Data Science Fundamentals:** Understanding end-to-end data workflows and analytical approaches.
+- **Python Programming:** Writing structured, readable, and reusable Python code.
+- **Statistics and Probability:** Applying descriptive and analytical statistical techniques.
+- **Data Handling and Preprocessing:** Cleaning, transforming, and preparing datasets for analysis.
+- **Exploratory Data Analysis:** Identifying trends, patterns, relationships, and anomalies.
+- **Data Visualization:** Creating meaningful charts and visual analytical outputs.
+- **Machine Learning:** Applying appropriate algorithms to practical predictive problems.
+- **Analytics and Strategic Insights:** Translating analytical results into business-oriented findings.
+- **Research-Oriented Problem Solving:** Formulating problems, evaluating assumptions, and interpreting results.
+- **Documentation and Reproducibility:** Maintaining structured documentation and reproducible project workflows.
+- **Version Control:** Using Git and GitHub to manage and document project development.
 
 ---
 
 ## Internship Tasks
 
-The 8-week curriculum is organized into six structured tasks. All technical work will be added incrementally as milestones are undertaken and reviewed.
+All six internship tasks have been completed.
 
 | Task | Title | Status |
 | :---: | :--- | :---: |
-| **01** | Data Science Fundamentals Assessment | In Progress |
-| **02** | Hands-On Data Lab Implementation | Not Started |
-| **03** | Real-World Dataset Analysis Project | Not Started |
-| **04** | Data Science Tool Mastery Project | Not Started |
-| **05** | Analytics Report & Insights Documentation | Not Started |
-| **06** | Final Data Science Capstone Project | Not Started |
+| **01** | Data Science Fundamentals Assessment | Completed |
+| **02** | Hands-On Data Lab Implementation | Completed |
+| **03** | Real-World Dataset Analysis Project | Completed |
+| **04** | Data Science Tool Mastery Project | Completed |
+| **05** | Analytics Report and Insights Documentation | Completed |
+| **06** | Final Data Science Capstone Project | Completed |
 
-> *Note: Work has commenced with initial setup and Task 01. Tasks 02 through 06 remain in a planned ("Not Started") state and will be populated upon progression.*
+### Task 01: Data Science Fundamentals Assessment
+
+The task focused on fundamental Data Science concepts and analytical thinking.
+
+Key areas included:
+
+- Data Science lifecycle
+- Types of data analysis
+- Descriptive, diagnostic, predictive, and prescriptive analytics
+- Python fundamentals
+- Data structures
+- Statistics and probability
+- Data Science applications
+- Research-oriented problem solving
 
 ---
 
-### Task Descriptions
+### Task 02: Hands-On Data Lab Implementation
 
-#### Task 01: Data Science Fundamentals Assessment
-* **Status:** In Progress
-* **Scope & Modules:**
-  * Foundations of the Data Science lifecycle (formulation, acquisition, processing, exploration, modeling, deployment).
-  * Major categories of data analysis: descriptive, diagnostic, predictive, and prescriptive.
-  * Real-world use cases across sectors (healthcare, finance, retail, and technology).
-  * Core Python fundamentals and computational paradigms.
-  * Essential descriptive and inferential statistics.
-  * Fundamental data types, data structures, and programmatic memory representations.
-  * Applied Data Science best practices and reproducible workflows.
-  * Completion of the practical fundamentals assessment and conceptual review.
+The task focused on practical implementation of core Data Science tools and workflows.
 
-#### Task 02: Hands-On Data Lab Implementation
-* **Status:** Not Started
-* **Scope & Modules:**
-  * Setting up and configuring the local Python and Jupyter computing environment.
-  * Vectorized computing and matrix operations using NumPy.
-  * Tabular data structures, indexing, and slicing using Pandas.
-  * Statistical and exploratory plotting using Matplotlib and Seaborn.
-  * Initial introduction to Scikit-learn data transformation utilities.
-  * End-to-end data loading from heterogeneous formats (CSV, Excel).
-  * Data manipulation, transformation, filtering, and cleaning routines.
-  * Basic exploratory data analysis, plotting, and structured documentation.
+Key areas included:
 
-#### Task 03: Real-World Dataset Analysis Project
-* **Status:** Not Started
-* **Scope & Modules:**
-  * Selection and validation of a domain-relevant real-world dataset.
-  * Initial dataset exploration, schema validation, and summary metrics.
-  * Rigorous data cleaning, missing value imputation, and anomaly resolution.
-  * Preprocessing routines, feature scaling, and category encoding.
-  * Comprehensive Exploratory Data Analysis (EDA) uncovering multidimensional trends.
-  * Univariate, bivariate, and multivariate visual analytics.
-  * Documentation of empirical findings, statistical inferences, and contextual interpretations.
+- Python environment setup
+- NumPy operations
+- Pandas data manipulation
+- Matplotlib visualization
+- Seaborn visualization
+- Scikit-learn preprocessing
+- CSV and Excel data handling
+- Data cleaning and transformation
+- Exploratory Data Analysis
 
-#### Task 04: Data Science Tool Mastery Project
-* **Status:** Not Started
-* **Scope & Modules:**
-  * In-depth exploration of industry-standard Data Science libraries and toolkits.
-  * Execution of focused, hands-on practical exercises targeting specific analytical challenges.
-  * Optimization of data workflows and profiling code execution efficiency.
-  * Production of clean, portfolio-ready demonstrations displaying tool proficiency and technical rigor.
+---
 
-#### Task 05: Analytics Report & Insights Documentation
-* **Status:** Not Started
-* **Scope & Modules:**
-  * Mapping analytical tasks directly to clear business objectives and performance indicators.
-  * Conducting structured data analysis to interrogate commercial problem statements.
-  * Formulating publication-quality visualizations and quantitative breakdowns.
-  * Synthesizing data points into strategic, high-value business insights.
-  * Authoring a comprehensive executive summary tailored for organizational stakeholders.
-  * Proposing practical, actionable, and data-backed operational recommendations.
+### Task 03: Real-World Dataset Analysis Project
 
-#### Task 06: Final Data Science Capstone Project
-* **Status:** Not Started
-* **Scope & Modules:**
-  * Capstone problem formulation, hypothesis structuring, and project roadmapping.
-  * End-to-end data collection, ingestion, auditing, and preparation.
-  * Advanced feature engineering, transformation pipelines, and validation strategies.
-  * Deep Exploratory Data Analysis (EDA) and correlation diagnostics.
-  * Application of appropriate Data Science and Machine Learning algorithms.
-  * Rigorous model evaluation, baseline comparisons, error diagnostics, and metric analysis.
-  * Visual result presentation and interpretation of model outcomes.
-  * Strategic recommendations, project summary presentation deck, and future research scope.
+The task focused on applying Data Science techniques to a real-world dataset.
+
+Key areas included:
+
+- Dataset selection and validation
+- Data inspection
+- Data cleaning
+- Missing-value handling
+- Data preprocessing
+- Feature transformation
+- Exploratory Data Analysis
+- Univariate analysis
+- Bivariate analysis
+- Multivariate analysis
+- Data visualization
+- Analytical findings
+
+---
+
+### Task 04: Data Science Tool Mastery Project
+
+The task focused on developing practical proficiency with commonly used Data Science libraries and tools.
+
+Key areas included:
+
+- Data manipulation
+- Numerical computation
+- Visualization
+- Machine Learning utilities
+- Notebook-based workflows
+- Analytical implementation
+- Tool-specific practical exercises
+- Reproducible project organization
+
+---
+
+### Task 05: Analytics Report and Insights Documentation
+
+The task focused on professional data analysis and business reporting.
+
+Key areas included:
+
+- Business objective definition
+- Analytical question formulation
+- KPI identification
+- Data analysis
+- Trend and pattern identification
+- Meaningful visualizations
+- Analytical findings
+- Business insights
+- Recommendations
+- Professional reporting
+
+---
+
+### Task 06: Final Data Science Capstone Project
+
+The final capstone project focused on an end-to-end machine learning and business analytics problem.
+
+**Project:** Customer Churn Prediction and Business Analytics Using Machine Learning
+
+Key areas included:
+
+- Problem formulation
+- Dataset preparation
+- Data cleaning
+- Exploratory Data Analysis
+- Feature preprocessing
+- Machine Learning model development
+- Model comparison
+- Model evaluation
+- Feature importance analysis
+- Business insights
+- Customer retention recommendations
+- Final analytical report
+- Visualization outputs
+- Reproducible Python source code
 
 ---
 
 ## Technology Stack
 
-The project strictly employs standard, industry-proven libraries and utilities aligned with the internship curriculum:
+The repository uses standard Data Science and Machine Learning technologies aligned with the internship curriculum.
 
-| Category | Technology | Usage in Internship |
+| Category | Technology | Usage |
 | :--- | :--- | :--- |
-| **Programming Language** | **Python** | Primary programming language for scripting, analysis, and modeling |
-| **Data Manipulation & Math** | **NumPy** | High-performance numerical arrays and matrix mathematics |
-| **Data Handling & Wrangling** | **Pandas** | Tabular data structures, dataframe manipulation, and preprocessing |
-| **Data Visualization** | **Matplotlib** | Static, customizable charts, figure generation, and axis styling |
-| **Statistical Visualization** | **Seaborn** | High-level statistical charts, distributions, and relationship plots |
-| **Machine Learning** | **Scikit-learn** | Preprocessing, feature transformation, baseline modeling, and metrics |
-| **File Format Support** | **openpyxl** | Reading and writing multi-sheet Excel workbooks (`.xlsx`) |
-| **Development Environments** | **Jupyter Notebook / JupyterLab** | Interactive development, computational narrative, and visualization |
-| **Code Editor** | **Visual Studio Code** | Project development, script editing, and workspace management |
-| **Version Control** | **Git & GitHub** | Distributed source tracking, commit history, and public portfolio hosting |
+| Programming | Python | Data analysis, scripting, and machine learning |
+| Numerical Computing | NumPy | Numerical arrays and mathematical operations |
+| Data Handling | Pandas | Data manipulation and preprocessing |
+| Visualization | Matplotlib | Static data visualization |
+| Statistical Visualization | Seaborn | Statistical charts and relationship analysis |
+| Machine Learning | Scikit-learn | Preprocessing, modeling, and evaluation |
+| Excel Support | openpyxl | Excel workbook handling |
+| Notebook | Jupyter Notebook | Interactive analysis and documentation |
+| Notebook Environment | JupyterLab | Interactive development |
+| Code Editor | Visual Studio Code | Source code development |
+| Version Control | Git | Source control |
+| Repository Hosting | GitHub | Project hosting and version history |
 
 ---
 
 ## Repository Structure
 
-The repository maintains an organized modular structure. Each task directory is self-contained with its dedicated documentation, notebooks, datasets (where applicable), and outputs:
+The repository is organized into six completed internship tasks and their associated deliverables.
 
 ```text
 ai-ml-research-specialist-internship/
@@ -177,48 +230,60 @@ ai-ml-research-specialist-internship/
 ├── .gitignore
 │
 ├── Task-01-Data-Science-Fundamentals/
-│   ├── README.md
-│   ├── notebook/
-│   ├── report/
-│   └── outputs/
 │
 ├── Task-02-Hands-On-Data-Lab/
-│   ├── README.md
-│   ├── notebook/
-│   ├── data/
-│   └── outputs/
 │
 ├── Task-03-Real-World-Dataset-Analysis/
-│   ├── README.md
-│   ├── notebook/
-│   ├── data/
-│   └── outputs/
 │
 ├── Task-04-Data-Science-Tool-Mastery/
-│   ├── README.md
-│   ├── notebook/
-│   └── outputs/
 │
 ├── Task-05-Analytics-Report-Insights/
-│   ├── README.md
-│   ├── notebook/
-│   └── outputs/
 │
 └── Task-06-Final-Data-Science-Capstone/
+    │
     ├── README.md
+    │
     ├── notebook/
+    │   └── Final_Data_Science_Capstone.ipynb
+    │
     ├── data/
-    ├── outputs/
-    └── presentation/
+    │   └── raw/
+    │       └── Telco_customer_churn.xlsx
+    │
+    ├── src/
+    │   ├── data_preprocessing.py
+    │   ├── exploratory_analysis.py
+    │   ├── model_training.py
+    │   └── model_evaluation.py
+    │
+    ├── reports/
+    │   ├── classification_report.txt
+    │   ├── final_project_summary.csv
+    │   ├── model_performance.csv
+    │   └── Customer_Churn_Prediction_Capstone_Report.md
+    │
+    └── visualizations/
+        ├── 01_churn_distribution.png
+        ├── 02_churn_percentage.png
+        ├── 03_gender_vs_churn.png
+        ├── 04_contract_vs_churn.png
+        ├── 05_internet_service_vs_churn.png
+        ├── 06_payment_method_vs_churn.png
+        ├── 07_tenure_vs_churn.png
+        ├── 08_monthly_charges_vs_churn.png
+        ├── 09_senior_citizen_vs_churn.png
+        ├── 10_correlation_heatmap.png
+        ├── 11_model_performance_comparison.png
+        ├── 12_confusion_matrix.png
+        ├── 13_roc_curve_comparison.png
+        └── 14_feature_importance.png
 ```
-
-> **Progressive Population Notice:** The task directories depicted above reflect the planned architectural blueprint. Individual folders and deliverables will be populated progressively as each task milestone is formally undertaken and completed.
 
 ---
 
 ## Working Methodology
 
-A disciplined, systematic scientific workflow is maintained across all empirical assignments and projects throughout this internship:
+A structured Data Science workflow was followed across the internship projects.
 
 ```text
 Problem Definition
@@ -243,88 +308,377 @@ Evaluation
         ↓
 Insights
         ↓
+Recommendations
+        ↓
 Conclusion
+        ↓
+Documentation
 ```
 
-*Note: The exact sequence and depth of stages will adapt naturally based on the individual specifications and objectives of each assigned task.*
+The exact depth and sequence of individual stages were adapted according to the requirements of each task.
 
 ---
 
 ## Skills Demonstrated
 
-This repository captures competencies developed and practiced during the program:
+This repository demonstrates practical experience in:
 
-* **Python Programming:** Writing modular, readable, and clean Python scripts and notebooks.
-* **Data Cleaning:** Handling null values, formatting inconsistencies, duplicate rows, and invalid types.
-* **Data Preprocessing:** Feature scaling, categorical encoding, and transformation pipelines.
-* **Exploratory Data Analysis (EDA):** Detecting trends, assessing distributions, and probing correlations.
-* **Statistical Analysis:** Applying summary statistics, dispersion metrics, and data distributions.
-* **Data Visualization:** Producing informative, well-labeled, and visually clear graphs.
-* **Data Interpretation:** Converting visual patterns and statistical metrics into analytical explanations.
-* **Data Manipulation:** Filtering, aggregating, grouping, and joining complex dataframes.
-* **Machine Learning Fundamentals:** Applying fundamental estimators, preprocessing steps, and evaluation metrics.
-* **Analytical Thinking:** Deconstructing ambiguous business or research questions into structured analytical tasks.
-* **Research-Oriented Problem Solving:** Maintaining rigorous methodology, questioning assumptions, and validating results.
-* **Documentation:** Writing detailed READMEs, methodical analytical reports, and clean notebook explanations.
-* **Reproducible Analysis:** Structuring self-contained environments and execution sequences.
-* **Git & GitHub:** Using version control to document progressive milestones transparently.
+### Python Programming
+
+- Writing modular Python scripts
+- Working with functions and reusable code
+- Data processing
+- Analytical programming
+
+### Data Cleaning
+
+- Handling missing values
+- Detecting duplicate records
+- Correcting data types
+- Removing irrelevant variables
+- Preparing datasets for analysis
+
+### Data Preprocessing
+
+- Feature transformation
+- Numerical scaling
+- Categorical encoding
+- Machine Learning pipelines
+- Train-test splitting
+
+### Exploratory Data Analysis
+
+- Distribution analysis
+- Univariate analysis
+- Bivariate analysis
+- Multivariate analysis
+- Correlation analysis
+- Trend identification
+
+### Data Visualization
+
+- Bar charts
+- Distribution plots
+- Box plots
+- Correlation heatmaps
+- Model performance charts
+- ROC curves
+- Confusion matrices
+- Feature importance visualizations
+
+### Machine Learning
+
+- Classification
+- Logistic Regression
+- Decision Trees
+- Random Forest
+- Model comparison
+- Performance evaluation
+- Feature importance analysis
+
+### Analytical Thinking
+
+- Business problem formulation
+- Hypothesis-oriented analysis
+- Interpretation of analytical results
+- Evidence-based recommendations
+- Recognition of analytical limitations
+
+### Documentation
+
+- Technical README files
+- Analytical reports
+- Jupyter notebooks
+- Project summaries
+- Reproducible source code
+
+### Version Control
+
+- Git repository management
+- Commit-based project tracking
+- GitHub project organization
 
 ---
 
 ## Documentation Standards
 
-To ensure transparency, peer-review readiness, and high academic/industrial quality, each task documentation follows a uniform structure:
+Task documentation follows a consistent analytical structure:
 
-* **Objective:** Primary aim and motivation for the assignment.
-* **Problem Statement:** Formal articulation of the analytical or business problem.
-* **Dataset / Input:** Origin, schema, size, and nature of the input data.
-* **Tools Used:** Specific libraries, versions, and software applied.
-* **Methodology:** Systematic analytical and computational procedure followed.
-* **Implementation:** Step-by-step technical execution details.
-* **Analysis:** Exploratory, statistical, or mathematical evaluations conducted.
-* **Visualizations:** Graphs and charts with descriptive captions and interpretations.
-* **Results:** Quantitative and qualitative findings derived from the work.
-* **Findings:** Key patterns, behavioral anomalies, or correlations identified.
-* **Limitations:** Recognized data constraints, assumptions, or methodological bounds.
-* **Conclusion:** Summary of outcomes and summary synthesis.
+- **Objective:** Purpose of the task.
+- **Problem Statement:** Definition of the analytical or business problem.
+- **Dataset / Input:** Source, structure, and characteristics of the input data.
+- **Tools Used:** Libraries, software, and technologies.
+- **Methodology:** Analytical and computational approach.
+- **Implementation:** Technical execution.
+- **Analysis:** Statistical and exploratory analysis.
+- **Visualizations:** Charts and graphical findings.
+- **Results:** Quantitative outcomes.
+- **Findings:** Important patterns and observations.
+- **Limitations:** Constraints and assumptions.
+- **Recommendations:** Practical actions based on findings.
+- **Future Scope:** Possible improvements and extensions.
+- **Conclusion:** Final project summary.
 
-**Additional Requirements for the Final Capstone (Task 06):**
-* **Model Evaluation:** Thorough assessment using standard performance metrics and validation sets.
-* **Recommendations:** Actionable steps supported directly by model evidence and findings.
-* **Future Scope:** Concrete directions for further exploration, scaling, or advanced research.
+### Additional Requirements for the Final Capstone
+
+The Task 06 capstone additionally includes:
+
+- Model comparison
+- Model evaluation
+- Performance metrics
+- Confusion matrix
+- ROC curve analysis
+- Feature importance analysis
+- Business recommendations
+- Future research scope
+- Final analytical report
+- Presentation-ready project outputs
 
 ---
 
-## Research & Responsible Analysis
+## Research and Responsible Analysis
 
-Data science and research tasks conducted within this repository adhere strictly to professional integrity and analytical rigor:
+The projects in this repository follow principles of analytical rigor and responsible Data Science.
 
-* **Data Quality First:** Recognizing that algorithmic validity depends strictly on data hygiene and validation.
-* **Appropriate Interpretation:** Resisting over-generalization and ensuring that claims reflect empirical support.
-* **Reproducibility:** Organizing scripts, parameters, and documentation so that workflows can be audited and repeated.
-* **Transparent Methodology:** Openly documenting data transformations, imputations, and feature creation choices.
-* **Responsible Use of Analytical Results:** Considering contextual nuances and potential algorithmic biases before reporting conclusions.
-* **Recognition of Limitations:** Explicitly disclosing sample size constraints, data gaps, or boundary conditions.
-* **Avoiding Unsupported Conclusions:** Differentiating between statistical correlation and causal inference, avoiding speculative statements without data verification.
+### Data Quality
+
+Data quality and validation are treated as important components of every analytical workflow.
+
+### Appropriate Interpretation
+
+Analytical findings are interpreted based on available evidence without unsupported generalization.
+
+### Reproducibility
+
+Project scripts, notebooks, dependencies, and outputs are organized to support reproducible analysis.
+
+### Transparent Methodology
+
+Important preprocessing, modeling, and analytical decisions are documented.
+
+### Responsible Use of Results
+
+Machine Learning outputs are treated as analytical predictions rather than guaranteed real-world outcomes.
+
+### Recognition of Limitations
+
+Dataset limitations, model limitations, assumptions, and potential sources of uncertainty are documented.
+
+### Correlation vs Causation
+
+Predictive relationships and feature importance are not automatically interpreted as causal relationships.
+
+---
+
+# Task 06 Capstone Project
+
+## Customer Churn Prediction and Business Analytics Using Machine Learning
+
+The final capstone addresses customer churn prediction using supervised Machine Learning.
+
+### Dataset
+
+- Dataset: Telco Customer Churn
+- Records: 7,043
+- Original Columns: 33
+- Overall Churn Rate: 26.54%
+- Target Variable: Churn Label
+
+### Models Evaluated
+
+Three classification algorithms were implemented:
+
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest
+
+### Final Model Performance
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| **Logistic Regression** | **80.45%** | **64.10%** | **60.16%** | **62.07%** | **84.31%** |
+| Random Forest | 79.39% | 63.55% | 52.67% | 57.60% | 82.71% |
+| Decision Tree | 72.92% | 49.06% | 48.66% | 48.86% | 65.21% |
+
+### Best Model
+
+**Logistic Regression**
+
+The Logistic Regression model achieved the highest ROC-AUC among the evaluated models and provided the strongest overall classification performance.
+
+### Important Predictive Factors
+
+Random Forest feature-importance analysis identified several important predictive variables, including:
+
+- Total Charges
+- Tenure Months
+- Monthly Charges
+- Contract Type
+- Online Security
+- Technical Support
+- Payment Method
+- Dependents
+- Internet Service
+- Online Backup
+
+### Business Recommendations
+
+The capstone recommends:
+
+- Targeting high-risk customers proactively
+- Improving early customer engagement
+- Encouraging appropriate long-term contracts
+- Reviewing high monthly-charge segments
+- Strengthening technical support
+- Promoting relevant value-added services
+- Monitoring high-risk payment-method segments
+- Using predictive analytics for customer retention
+- Developing personalized retention strategies
+
+Detailed capstone documentation is available inside:
+
+```text
+Task-06-Final-Data-Science-Capstone/
+```
+
+---
+
+## Environment Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+```
+
+### 2. Navigate to the Repository
+
+```bash
+cd ai-ml-research-specialist-internship
+```
+
+### 3. Create a Virtual Environment
+
+Windows:
+
+```bash
+python -m venv .venv
+```
+
+### 4. Activate the Virtual Environment
+
+Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+### 5. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Launch Jupyter
+
+```bash
+jupyter notebook
+```
+
+or:
+
+```bash
+jupyter lab
+```
+
+---
+
+## Reproducibility
+
+The repository includes reusable Python source modules for the final capstone.
+
+### Data Preprocessing
+
+```bash
+python src/data_preprocessing.py
+```
+
+### Exploratory Analysis
+
+```bash
+python src/exploratory_analysis.py
+```
+
+### Model Evaluation
+
+```bash
+python src/model_evaluation.py
+```
+
+The Task 06 project uses modular source files for:
+
+- Data preprocessing
+- Exploratory analysis
+- Model training
+- Model evaluation
+
+Generated reports and visualizations are stored in the corresponding project directories.
+
+---
+
+## Requirements
+
+The root-level `requirements.txt` contains the core dependencies used throughout the internship.
+
+Main dependencies include:
+
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter
+- JupyterLab
+- openpyxl
+
+Install all dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
 ## Internship Submission
 
-Technical work, project deliverables, and analysis reports completed during the internship are documented through this GitHub repository. Structured task deliverables and milestone reports will be submitted according to the evaluative procedures and guidelines established by the **YuvaIntern** platform.
+All completed internship tasks and supporting materials are maintained within this repository.
+
+The repository contains:
+
+- Task-wise implementations
+- Jupyter notebooks
+- Python source code
+- Datasets where applicable
+- Analytical reports
+- Visualizations
+- Machine Learning outputs
+- Project documentation
+- Final capstone report
+
+The repository is intended to provide a complete and auditable record of the internship work.
 
 ---
 
 ## Author
 
-**Yash Jadhav**  
-*AI ML Research Specialist Intern*
+**Yash Jadhav**
 
-* **GitHub:** [GitHub Profile](YOUR_GITHUB_PROFILE_URL)
-* **LinkedIn:** [LinkedIn Profile](YOUR_LINKEDIN_PROFILE_URL)
+AI ML Research Specialist Intern
 
 ---
 
 ## License
 
-This repository contains work completed as part of an internship and is intended primarily for educational and portfolio purposes.
+This repository contains work completed as part of an internship and is intended primarily for educational, academic, portfolio, and professional demonstration purposes.
+```
+

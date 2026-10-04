@@ -1,0 +1,12 @@
+Metric,Value
+Total Customers,7043
+Total Features,33
+Churned Customers,1869
+Retained Customers,5174
+Overall Churn Rate (%),26.54
+Best Model,Logistic Regression
+Best Accuracy,0.802
+Best Precision,0.6435
+Best Recall,0.5695
+Best F1 Score,0.6043
+Best ROC-AUC,0.8487
