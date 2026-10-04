@@ -1,0 +1,9 @@
+Finding,Value
+Overall Survival Rate (%),38.38
+Highest Survival Gender,female
+Highest Gender Survival Rate (%),74.2
+Highest Survival Passenger Class,1
+Highest Class Survival Rate (%),62.96
+Average Passenger Age,29.36
+Average Passenger Fare,32.2
+Logistic Regression Accuracy (%),80.45
